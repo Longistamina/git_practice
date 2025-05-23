@@ -26,7 +26,12 @@ git remote add origin URL_link #add the remote repository to local repository
 git push -u origin main
 
 
-### If use codeberg as a second platform beside github
+### Check if codeberg has been set as origin
+# This command below also to check the current repo that git and codeberg are targeting
+git remote -v
+#=> origin https://codeberg.org/Longistamina/git_practice.git (fetch)
+#=> origin https://codeberg.org/Longistamina/git_practice.git (push)
+
+### If use codeberg as a second platform beside github (origin)
 git remote add codeberg https://codeberg.org/your-username/your-repo.git
 git push -u codeberg main
-
