@@ -1,4 +1,3 @@
-
 # pull: is to update all changes from codeberg or github to local repo
 
 git fetch origin #fetch gets all the change history of a tracked branch/repo.
