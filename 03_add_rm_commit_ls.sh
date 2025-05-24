@@ -1,5 +1,5 @@
 # After making changes in the local repo, use "git status" to check the changes (files in red color)
-# These files are in TRACKING STAGE, meaning these files are waiting to be added and committed
+# These files are in TRACKING STAGE, meaning these files are waiting to be added and committed.
 
 #-------------------------------------#
 #----------- git add -----------------#
