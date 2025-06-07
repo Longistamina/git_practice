@@ -30,6 +30,9 @@ git rm --cached file.tail
 git rm -r --cached .
 #Remove all files in current repo "." from tracking stage
 
+git clean -fd <file>
+#forcefully remove untracked files or directories from your working directory.
+#Meaning the files or directories will be deleted "realistically" => MUST CONSIDER
 
 #---------------------------------------#
 #-------- Git commit -------------------#
