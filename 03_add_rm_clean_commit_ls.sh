@@ -6,14 +6,18 @@
 #-------------------------------------#
 git add file_name1.tail file_name2.tail ...
 #Add files to staging status, wait for commit
+#From Red to Green
 
 git add --all
+git add .
 #Add all existing files to staging status
+#From Red to Green
 
 git add folder_name/
 #Add a folder with all its files
 #If the folder has been initiated with "git init" and have hidden folder .git => it will prompt error
 # => must delete the .git folder
+#From Red to Green
 
 git status 
 #check the status again
@@ -26,9 +30,11 @@ git status
 
 git rm --cached file.tail
 #Remove a file from tracking stage without deleting files on local repo
+#From Green to Red color
 
 git rm -r --cached .
 #Remove all files in current repo "." from tracking stage
+#From Green to Red color
 
 git clean -fd <file>
 #forcefully remove untracked files or directories from your working directory.
