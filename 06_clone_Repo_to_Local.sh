@@ -1,9 +1,0 @@
-#clone: use this once when you want to copy a repository from GitHub (or any remote repo) to your local machine for the first time. 
-#       It creates a new folder with the project and downloads all files.
-
-git clone https://github.com/username/repository.git
-
-
-#Update later changes:
-cd repository
-git pull origin
