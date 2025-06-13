@@ -39,10 +39,6 @@ git push github
 
 # If your local branch and the remote branch have diverged 
 # (meaning both have new commits that the others do not have) 
-# Git wants you to decide how to merge those changes.
+# Git wants you to decide the way to handle this conflictual situation
 
-######## if you prioritize the history of the LOCAL (otherwise, see file 06_pull)
-######## In other words, you want to replace all the history of the remote with the local
-
-git push -u --force origin main
-git push -u --force github main
+# => read file 09 and then file 10

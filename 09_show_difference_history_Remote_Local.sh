@@ -1,3 +1,9 @@
+# If your local branch and the remote branch have diverged 
+# (meaning both have new commits that the others do not have) 
+# Git wants you to decide the way to handle this conflictual situation
+
+# ===> Use below commands to examine the difference between remote and local histories
+
 # origin here is codeberg
 
 # 1) Fetch the latest remote updates (to ensure your remote tracking branches are up to date):
@@ -30,3 +36,6 @@ git rev-list --left-right --count github/main...main # or other branch_name
 git show main          # show the history of LOCAL "main" branch (can be other branch_name)
 git show origin/main   # show the history of REMOTE origin (codeberg) "main" branch (can be other branch_name)
 git show github/main   # show the history of REMOTE github            "main" branch (can be other branch_name)
+
+
+####### After identifying the difference or the conflict point, read file 10 to for some possible solutions #######
