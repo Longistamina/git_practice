@@ -7,8 +7,9 @@
 
 # origin here is codeberg
 
-git fetch origin #fetch gets all the change history of a tracked branch/repo.
-git fetch github
+git fetch origin main #fetch gets all the change history of a tracked repo/branch
+git fetch github main
+# If you used "git push -u origin main" before, now just need "git fetch origin"
 
 git status # check the history you have fetched from the remote
 
